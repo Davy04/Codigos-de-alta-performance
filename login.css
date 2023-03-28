@@ -6,7 +6,13 @@
   width: 100vw;
   height: 100vh;
   color: rgb(45, 225, 100);
-  background: rgb(209, 209, 255);
+  background: linear-gradient(
+    257.51deg,
+    #000071 -18.79%,
+    #000080 -15.6%,
+    #000000 111.58%,
+    rgba(25, 25, 112, 0) 111.64%
+  );
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -18,11 +24,22 @@
   height: 450px;
   background: rgb(0, 0, 19);
   border-radius: 10px;
-  box-shadow: 5px 5px 25px rgb(45, 225, 100);
+  box-shadow: 5px 5px 25px rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.Carinha {
+  width: 90px;
+  height: 90px;
+  background-color: green;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-top: -100px;
 }
 
 .box-input {
@@ -30,13 +47,6 @@
   flex-direction: column;
   align-items: center;
   margin: 10px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
 }
 
 .box-input a {
@@ -52,7 +62,6 @@ form {
   background-color: transparent;
   border-color: rgb(45, 225, 100);
   padding-left: 10px;
-  color: white;
 }
 
 .inputs:hover {

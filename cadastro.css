@@ -1,15 +1,23 @@
 * {
     font-family: "Barlow Condensed", sans-serif;
     color: white;
+    margin: 0;
 }
 
 .container {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    background: linear-gradient(
+    257.51deg,
+    #000071 -18.79%,
+    #000080 -15.6%,
+    #000000 111.58%,
+    rgba(25, 25, 112, 0) 111.64%
+  );
 }
 
 .box {
