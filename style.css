@@ -6,7 +6,13 @@
   width: 100vw;
   height: 100vh;
   color: rgb(45, 225, 100);
-  background: rgb(209, 209, 255);
+  background: linear-gradient(
+    257.51deg,
+    #000071 -18.79%,
+    #000080 -15.6%,
+    #000000 111.58%,
+    rgba(25, 25, 112, 0) 111.64%
+  );
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -18,7 +24,7 @@
   height: 450px;
   background: rgb(0, 0, 19);
   border-radius: 10px;
-  box-shadow: 5px 5px 25px rgb(45, 225, 100);
+  box-shadow: 5px 5px 25px rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   flex-direction: column;
