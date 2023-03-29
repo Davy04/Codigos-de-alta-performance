@@ -38,25 +38,25 @@ function cadastrar() {
             document.getElementById('alerta-senha').innerHTML = '';
         }, 3000);
     }
-    if(guardaCpf.length != 11 || guardaSenha.trim().length == 0){
+    if (guardaCpf.length != 11 || guardaSenha.trim().length == 0) {
         document.getElementById('alerta-cpf').innerHTML = 'tem que conter exatamente 11 algarismos';
         setTimeout(() => {
             document.getElementById('alerta-cpf').innerHTML = '';
         }, 3000);
     }
-    if(guardaEmail.length < 3 || guardaSenha.trim().length == 0){
+    if (guardaEmail.length < 3 || guardaSenha.trim().length == 0) {
         document.getElementById('alerta-email').innerHTML = 'insira um email valido';
         setTimeout(() => {
             document.getElementById('alerta-email').innerHTML = '';
         }, 3000);
     }
-    if(guardaDataCri.length == 0){
+    if (guardaDataCri.length == 0) {
         document.getElementById('alerta-dataCri').innerHTML = 'insira um email valido';
         setTimeout(() => {
             document.getElementById('alerta-dataCri').innerHTML = '';
         }, 3000);
     }
-    if(guardaDataNasc == 0){
+    if (guardaDataNasc == 0) {
         document.getElementById('alerta-dataNasc').innerHTML = 'insira um email valido';
         setTimeout(() => {
             document.getElementById('alerta-dataNasc').innerHTML = '';
@@ -84,7 +84,7 @@ function logar() {
     var login = document.getElementById('login').value;
     var senha = document.getElementById('senha').value;
 
-    if (login == 'admin' && senha == '123') {
+    if (login == '123' && senha == '123') {
         alert("senha correta")
         location.href = "#"
     } else {
