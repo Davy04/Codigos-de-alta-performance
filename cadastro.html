@@ -17,17 +17,31 @@
     <div class="container">
         <div class="box">
             <h1>CADASTRO</h1>
-            <form action="">
-                <input type="text" placeholder="Nome" id="nome">
-                <input type="password" placeholder="senha" id="senha">
+
+                <input type="text" name="" id="nome" placeholder="Nome" />
+                <p id="alerta-nome"></p>
+
+                <input type="text" id="senha" placeholder="Senha" />
+                <p id="alerta-senha"></p>
+
                 <input type="number" placeholder="CPF" id="cpf">
-                <input type="email" placeholder="Email" id="email">         
-                <input placeholder="Data de criação do cadastro" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="dataCri">
-                <input placeholder="Data de nascimento" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="dataNasc">
-                <input type="submit" value="CADASTRAR" class="enviar">
-            </form>
+                <p id="alerta-cpf"></p>
+
+                <input type="email" placeholder="Email" id="email">
+                <p id="alerta-email"></p>
+
+                <input placeholder="Data de criação do cadastro" type="text" onfocus="(this.type='date')"
+                    onblur="(this.type='text')" id="dataCri">
+                    <p id="alerta-dataCri"></p>
+
+                <input placeholder="Data de nascimento" type="text" onfocus="(this.type='date')"
+                    onblur="(this.type='text')" id="dataNasc">
+                    <p id="alerta-dataNasc"></p>
+
+                <button onclick="cadastrar()" id="cadastrar" class="enviar">CADASTRAR</button>
+            
         </div>
-    </div>
+        <script src="main.js"></script>
 </body>
 
 </html>
