@@ -70,12 +70,3 @@ hr {
   width: 120px;
   padding-bottom: 17px;
 }
-
-input {
-  background: none;
-  border-color: #49c61d;
-  width: 145px;
-  height: 25px;
-  padding-left: 10px;
-  border-radius: 10px;
-}
