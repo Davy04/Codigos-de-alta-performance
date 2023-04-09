@@ -92,6 +92,7 @@ function logar() {
     if (usuarios[i].nome === nomeLogin && usuarios[i].senha === senhaLogin) {
       usuarioExistente = true;
       localStorage.setItem("usuarioAtual", JSON.stringify(usuarios[i]));
+      alert("sucesso")
       location.href = "pagUsuario.html";
       break;
     }
