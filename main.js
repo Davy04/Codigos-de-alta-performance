@@ -93,7 +93,7 @@ function logar() {
       usuarioExistente = true;
       localStorage.setItem("usuarioAtual", JSON.stringify(usuarios[i]));
       alert("sucesso")
-      location.href = "pagUsuario.html";
+      location.href = "home.html";
       break;
     }
   }
