@@ -67,7 +67,7 @@ function cadastrar() {
   }
   if (guardaDataNasc == 0) {
     document.getElementById("alerta-dataNasc").innerHTML =
-      "insira um email valido";
+      "insira uma data valida";
     setTimeout(() => {
       document.getElementById("alerta-dataNasc").innerHTML = "";
     }, 3000);
